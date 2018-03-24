@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Smart Ringer Switch</string>
+    <string name="app_description">
+        An Android quick settings ringer mode toggle. Can be configured to switch between
+        specific audio modes.
+    </string>
+
+    <!-- Audio Modes -->
+    <string name="audio_settings">Audio Modes</string>
+    <string name="state_normal">Ringtone</string>
+    <string name="state_vibrate">Vibrate</string>
+    <string name="state_silent">Silent</string>
+    <string name="state_invalid">Invalid</string>
+
+    <!-- Permissions -->
+    <string name="grant_dnd_permission">Grant Do Not Disturb Permissions</string>
+    <string name="menu_permissions_title">Required Permissions</string>
+    <string name="dnd_perm_summary">
+        In order for the time to work, application needs access to the Do Not Disturb Permissions
+    </string>
+    <string name="dnd_granted_summary">Permission already granted. All set :)</string>
+
+    <!-- Version -->
+    <string name="version">0.1</string>
+
+    <!-- About -->
+    <string name="about_section_header">About</string>
+    <string name="version_title">Version</string>
+    <string name="open_source_title">Smart Ringer Switch GitHub</string>
+    <string name="open_source_desc">
+        Like many good things, this software is free and Open Source. Go to the Smart Ringer Switch
+        GitHub Page
+    </string>
+    <string name="github_url">https://github.com/seslash/smart_ringer_switch/</string>
+
+</resources>

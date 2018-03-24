@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/audio_settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_volume_up_black_24dp"
+            android:key="@string/state_normal_key"
+            android:title="@string/state_normal" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_vibration_black_24dp"
+            android:key="@string/state_vibrate_key"
+            android:title="@string/state_vibrate" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_volume_off_black_24dp"
+            android:key="@string/state_silent_key"
+            android:title="@string/state_silent" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/menu_permissions_title">
+        <Preference
+            android:key="@string/grant_permission_notif_key"
+            android:title="@string/grant_dnd_permission"
+            android:summary="@string/dnd_perm_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about_section_header">
+        <Preference
+            android:selectable="false"
+            android:title="@string/version_title"
+            android:summary="@string/version" />
+
+        <Preference
+            android:icon="@drawable/ic_github_logo"
+            android:title="@string/open_source_title"
+            android:summary="@string/open_source_desc" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/github_url" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

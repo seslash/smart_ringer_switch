@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_normal_key">ringtone</string>
+    <string name="state_vibrate_key">vibrate</string>
+    <string name="state_silent_key">silent</string>
+    <string name="state_invalid_key">invalid</string>
+
+    <string name="grant_permission_notif_key">grant_permission_notif</string>
+</resources>
