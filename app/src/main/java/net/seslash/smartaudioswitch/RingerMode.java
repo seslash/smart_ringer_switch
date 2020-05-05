@@ -1,9 +1,7 @@
 package net.seslash.smartaudioswitch;
 
 import android.media.AudioManager;
-import android.support.annotation.NonNull;
-
-import org.jetbrains.annotations.Contract;
+import androidx.annotation.NonNull;
 
 import java.util.Vector;
 
@@ -32,13 +30,11 @@ final class RingerMode {
         return this.isActive;
     }
 
-    @Contract(pure = true)
     @NonNull
     Integer getRingerMode() {
         return this.ringerMode;
     }
 
-    @Contract(pure = true)
     Integer getNameResId() {
         switch (this.ringerMode) {
             case AudioManager.RINGER_MODE_NORMAL:
@@ -55,7 +51,6 @@ final class RingerMode {
         }
     }
 
-    @Contract(pure = true)
     public Integer getIcon() {
         switch (this.ringerMode) {
             case AudioManager.RINGER_MODE_NORMAL:
@@ -105,7 +100,6 @@ final class RingerMode {
     }
 
     @NonNull
-    @Contract(pure = true)
     static Integer getRingerOrderNum(Integer ringer_mode) {
         switch (ringer_mode) {
             case AudioManager.RINGER_MODE_NORMAL:
@@ -122,7 +116,6 @@ final class RingerMode {
         }
     }
 
-    @Contract(pure = true)
     private static boolean isValidRingerMode(Integer ringer_mode) {
         return getValidRingerModes().contains(ringer_mode);
     }

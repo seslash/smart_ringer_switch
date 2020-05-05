@@ -22,6 +22,7 @@ public class RingerModeTileService extends TileService {
             Intent intent = new Intent(getApplicationContext(), SmartRingerModeSettings.class);
             intent.setAction(Intent.ACTION_MAIN);
             intent.addCategory(Intent.CATEGORY_LAUNCHER);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivityAndCollapse(intent);
 
             return;

@@ -8,9 +8,7 @@ import android.graphics.drawable.Icon;
 import android.media.AudioManager;
 import android.preference.PreferenceManager;
 import android.service.quicksettings.Tile;
-import android.support.annotation.NonNull;
-
-import org.jetbrains.annotations.Contract;
+import androidx.annotation.NonNull;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -84,7 +82,6 @@ final class RingerModeController extends BroadcastReceiver {
                 : this.ringerModes.entrySet().iterator().next().getValue();
     }
 
-    @Contract(pure = true)
     @NonNull
     private Integer getDefaultRingerMode() {
         return this.ringerModes.get(RingerMode.getRingerOrderNum(DEFAULT_RINGER_MODE)).getIsActive()
@@ -92,13 +89,11 @@ final class RingerModeController extends BroadcastReceiver {
                 : this.getNextRingerID();
     }
 
-    @Contract(pure = true)
     @NonNull
     private Integer getCurrentRingerMode() {
         return this.getCurrentRingerModeObject().getRingerMode();
     }
 
-    @Contract(pure = true)
     private int getIcon() {
         return this.getCurrentRingerModeObject().getIcon();
     }
