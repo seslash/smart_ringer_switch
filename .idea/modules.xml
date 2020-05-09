@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smartAudioSwitch.iml" filepath="$PROJECT_DIR$/smartAudioSwitch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="smart_ringer_switch/app" />
+      <module fileurl="file://$PROJECT_DIR$/smart_ringer_switch.iml" filepath="$PROJECT_DIR$/smart_ringer_switch.iml" group="smart_ringer_switch" />
     </modules>
   </component>
 </project>

@@ -21,7 +21,7 @@
     <string name="dnd_granted_summary">Permission already granted. All set :)</string>
 
     <!-- Version -->
-    <string name="version">0.1</string>
+    <string name="version">0.2</string>
 
     <!-- About -->
     <string name="about_section_header">About</string>
